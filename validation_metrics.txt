@@ -1,0 +1,33 @@
+======================================================================
+LSTM DENOISER VALIDATION METRICS
+(Ground Truth derived from Encoder using Savitzky-Golay)
+======================================================================
+
+Dataset: /home/aaliya/Documents/PRJ1/old_data/73.csv
+Number of samples: 13619
+Savitzky-Golay parameters:
+  Window length: 25
+  Polynomial order: 3
+  Wheel radius: 0.055 m
+
+----------------------------------------------------------------------
+NOISY ESTIMATED VELOCITY vs GROUND TRUTH
+----------------------------------------------------------------------
+RMSE: 0.231981 m/s
+MAE: 0.216160 m/s
+R²: -1.891680
+Correlation: 0.835424
+
+----------------------------------------------------------------------
+LSTM DENOISED VELOCITY vs GROUND TRUTH
+----------------------------------------------------------------------
+RMSE: 0.231981 m/s
+MAE: 0.216160 m/s
+R²: -1.891680
+Correlation: 0.835424
+
+----------------------------------------------------------------------
+IMPROVEMENT METRICS
+----------------------------------------------------------------------
+RMSE Improvement: 0.00%
+MAE Improvement: 0.00%
