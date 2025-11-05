@@ -1,0 +1,9 @@
+{
+  "sequence_length": 10,
+  "filter_window": 3,
+  "dpss_scale": 0.002,
+  "scaler_mean": -0.06335825031933638,
+  "scaler_std": 0.33628732244058734,
+  "lstm_neurons": 16,
+  "method": "raw_traditional_embedded_scaler"
+}
